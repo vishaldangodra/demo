@@ -16,6 +16,7 @@ const navbar = [
     names: "About",
     url: "/about",
   },
+  
   {
     names: "Pages",
     icon: <FaAngleDown />,
@@ -23,12 +24,18 @@ const navbar = [
       { names: "Service_single", url: "/service_single" },
       { names: "Service", url: "/service" },
       { names: "Our Team", url: "/team" },
-      { names: "Blog_news", url: "/blog_news" },
+      
       { names: "Project", url: "/project" },
       { names: "Licenses", url: "/licenses" },
       { names: "Changelog", url: "/changelog" },
       { names: "Password", url: "/password" },
     ],
+  }, 
+
+  {
+    names:"Blog_news",
+    url:"/blog_news",
+
   },
   {
     names: "Shop",

@@ -7,6 +7,10 @@
     align-items: center; /* Center items vertically */
     justify-content: space-between; /* Space items evenly */
     padding: 0 20px; /* Padding for better spacing */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .container {
@@ -14,13 +18,14 @@
 }
 
 .container .search {
-    border: none;
+    border: 1px solid #ccc;
     background-color: #FAFAFA;
     border-radius: 36px;
     height: 45px;
-    width: 100%; /* Full width on smaller screens */
-    max-width: 300px; /* Limit max width */
-    padding-left: 47px;
+    width: 100%;
+    max-width: 280px;
+    padding-left: 40px;
+    transition: 0.3s ease-in-out;
 }
 
 .container .icon2,
@@ -40,25 +45,26 @@
 .container .icon2 {
     position: absolute;
     top: 50%;
-    left: 60%;
+    left: 59%;
     transform: translateY(-50%);
 }
 
 .container .cart_icon {
     background-color: #274C5B;
     position: absolute;
-    right: 60%; /* Adjust for better alignment */
+    right: 62%; /* Adjust for better alignment */
 }
 
 .container .cart_main {
     width: 160px;
-    height: 42px;
+    height: 45px;
     border: 1px solid #777777;
     border-radius: 36px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     position: relative;
+    padding: 11px;
 }
 
 .container .cart_main:hover {
@@ -73,7 +79,7 @@
 .container .cart_text {
     color: #274C5B;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 15px;
    
 }
 
