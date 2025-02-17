@@ -40,6 +40,7 @@ const Shop = () => {
         </div>
       </section>
       <div className="container">
+        
  <Subscribe />
  </div>
     </>
